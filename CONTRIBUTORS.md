@@ -7,6 +7,7 @@ Thank you to all the amazing contributors who have helped make this project bett
 When you contribute to this repository, please add yourself to this list by following the format below:
 
 ### Format:
+
 ```markdown
 - **[Your Name](https://github.com/yourusername)** - [Brief description of your contribution]
 ```
@@ -16,12 +17,16 @@ When you contribute to this repository, please add yourself to this list by foll
 ## 🌟 Hall of Fame
 
 ### Project Maintainers
-- **[Soumwadeep Guha](https://github.com/soumwadeep)** - Repository creator and maintainer
+
+- **[S Guha Systems Creator](https://github.com/sguhasystems-creator)** - Repository creator and maintainer
 
 ### Contributors
+
 <!-- Add yourself here when making a contribution! -->
 
-*Be the first contributor! Add your name here when you submit your first HTML template.*
+_Be the first contributor! Add your name here when you submit your first HTML template._
+
+- **[Soumwadeep Guha](https://github.com/soumwadeep)**
 
 ---
 
@@ -36,16 +41,20 @@ When you contribute to this repository, please add yourself to this list by foll
 ## 🎯 Contribution Types
 
 ### 🎨 HTML Templates
-*No templates yet - be the first to add one!*
 
-### 🧩 CSS Components  
-*No components yet - be the first to add one!*
+_No templates yet - be the first to add one!_
+
+### 🧩 CSS Components
+
+_No components yet - be the first to add one!_
 
 ### ⚡ JavaScript Projects
-*No JavaScript projects yet - be the first to add one!*
+
+_No JavaScript projects yet - be the first to add one!_
 
 ### 📱 Responsive Designs
-*No responsive designs yet - be the first to add one!*
+
+_No responsive designs yet - be the first to add one!_
 
 ---
 
@@ -63,15 +72,19 @@ When you contribute to this repository, please add yourself to this list by foll
 ## 🏅 Recognition Levels
 
 ### 🌟 First-Time Contributors
+
 Welcome to the community! Every journey starts with a single step.
 
-### 🔥 Regular Contributors  
+### 🔥 Regular Contributors
+
 Contributors with 2-5 projects in the repository.
 
 ### 💎 Super Contributors
+
 Contributors with 5+ projects and exceptional code quality.
 
 ### 👑 Hacktoberfest Champions
+
 Special recognition for active participants in Hacktoberfest 2025!
 
 ---
