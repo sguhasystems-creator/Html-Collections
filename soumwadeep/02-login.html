@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Login</title>
+<style>
+  body{margin:0;font-family:system-ui,Arial,sans-serif;background:#f3f4f6;display:grid;min-height:100vh;place-items:center}
+  .card{width:100%;max-width:360px;background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:24px}
+  h1{margin-top:0;font-size:22px}
+  label{display:block;margin:10px 0 6px;font-size:14px;color:#374151}
+  input{width:100%;padding:10px;border:1px solid #d1d5db;border-radius:8px}
+  .row{display:flex;justify-content:space-between;align-items:center;margin:8px 0 16px;font-size:13px}
+  .btn{width:100%;padding:10px;border:none;border-radius:8px;background:#2563eb;color:#fff;cursor:pointer}
+  .muted{font-size:13px;color:#6b7280;text-align:center;margin-top:10px}
+  a{color:#2563eb;text-decoration:none}
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>Welcome back</h1>
+    <form>
+      <label>Email</label>
+      <input type="email" placeholder="you@example.com" required />
+      <label>Password</label>
+      <input type="password" placeholder="••••••••" required />
+      <div class="row">
+        <label style="display:flex;gap:6px;align-items:center;">
+          <input type="checkbox" />Remember me
+        </label>
+        <a href="#">Forgot?</a>
+      </div>
+      <button class="btn">Sign in</button>
+    </form>
+    <p class="muted">No account? <a href="#">Create one</a></p>
+  </div>
+</body>
+</html>
