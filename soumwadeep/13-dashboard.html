@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Simple Dashboard</title>
+<style>
+  body{margin:0;font-family:system-ui,Arial,sans-serif;background:#f9fafb;color:#111827}
+  header{background:#111827;color:#fff;padding:16px;display:flex;justify-content:space-between;align-items:center}
+  main{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;padding:20px}
+  .card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px}
+  h2{margin:0;font-size:18px}
+  .metric{font-size:28px;margin:8px 0;font-weight:600}
+  .muted{color:#6b7280;font-size:13px}
+</style>
+</head>
+<body>
+  <header>
+    <div>My Dashboard</div>
+    <nav><a href="#" style="color:#fff;text-decoration:none">Logout</a></nav>
+  </header>
+  <main>
+    <div class="card">
+      <h2>Sales</h2>
+      <div class="metric">$4,200</div>
+      <div class="muted">This month</div>
+    </div>
+    <div class="card">
+      <h2>Users</h2>
+      <div class="metric">128</div>
+      <div class="muted">Active</div>
+    </div>
+    <div class="card">
+      <h2>Tasks</h2>
+      <div class="metric">34</div>
+      <div class="muted">Pending</div>
+    </div>
+  </main>
+</body>
+</html>

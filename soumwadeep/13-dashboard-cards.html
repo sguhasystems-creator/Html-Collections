@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Mini Dashboard</title>
+<style>
+  :root{--ink:#111827;--muted:#6b7280;--bg:#f8fafc;--card:#ffffff;--border:#e5e7eb;--accent:#22c55e}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+  header{padding:16px 20px;background:#fff;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center}
+  .search{padding:8px 10px;border:1px solid var(--border);border-radius:10px;min-width:220px}
+  main{max-width:1000px;margin:0 auto;padding:20px}
+  h1{margin:0 0 14px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:14px}
+  .label{font-size:13px;color:var(--muted)}
+  .value{font-size:28px;font-weight:700;margin-top:4px}
+  .trend{font-size:12px;margin-top:6px;color:#16a34a}
+  table{width:100%;border-collapse:collapse;margin-top:14px;font-size:14px}
+  th,td{border:1px solid var(--border);padding:8px;text-align:left}
+  .btn{display:inline-block;margin-top:10px;padding:8px 12px;border-radius:10px;border:1px solid var(--border);background:#fff;text-decoration:none;color:var(--ink)}
+</style>
+</head>
+<body>
+  <header>
+    <strong>Acme Dashboard</strong>
+    <input class="search" placeholder="Search…" />
+  </header>
+  <main>
+    <h1>Overview</h1>
+    <section class="grid">
+      <div class="card">
+        <div class="label">Revenue (MTD)</div>
+        <div class="value">₹ 1,24,500</div>
+        <div class="trend">▲ +8.2% vs last month</div>
+      </div>
+      <div class="card">
+        <div class="label">Orders</div>
+        <div class="value">312</div>
+        <div class="trend">▲ +3.1% WoW</div>
+      </div>
+      <div class="card">
+        <div class="label">Customers</div>
+        <div class="value">1,045</div>
+        <div class="trend">— 0.0% today</div>
+      </div>
+      <div class="card">
+        <div class="label">Refunds</div>
+        <div class="value">6</div>
+        <div class="trend" style="color:#ef4444">▼ -1.2% WoW</div>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:14px">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap">
+        <strong>Recent Orders</strong>
+        <a class="btn" href="#">View all</a>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Order #</th><th>Customer</th><th>Date</th><th>Total</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>SO-1001</td><td>Rahul Sharma</td><td>2025-09-15</td><td>₹ 8,540</td></tr>
+          <tr><td>SO-1002</td><td>Anita Desai</td><td>2025-09-16</td><td>₹ 3,120</td></tr>
+          <tr><td>SO-1003</td><td>GC Decor</td><td>2025-09-17</td><td>₹ 12,430</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>
