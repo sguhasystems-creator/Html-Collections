@@ -165,8 +165,8 @@ We are committed to fostering a welcoming community. Please read our Code of Con
 
 ## 📧 Contact
 
-- **Maintainer**: [Soumwadeep Guha](https://github.com/soumwadeep)
-- **Repository**: [Html-Collections](https://github.com/soumwadeep/Html-Collections)
+- **Maintainer**: [S Guha Systems Creator](https://github.com/sguhasystems-creator)
+- **Repository**: [Html-Collections](https://github.com/sguhasystems-creator/Html-Collections)
 
 ## 📄 License
 
