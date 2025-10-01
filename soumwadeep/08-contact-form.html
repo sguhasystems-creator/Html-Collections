@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Contact Form</title>
+<style>
+  body{margin:0;font-family:system-ui,Arial,sans-serif;background:#eef2f7}
+  .wrap{max-width:720px;margin:0 auto;padding:28px}
+  .card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:18px}
+  label{display:block;margin:10px 0 6px;color:#374151}
+  input, textarea{width:100%;padding:10px;border:1px solid #d1d5db;border-radius:8px}
+  textarea{min-height:120px}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  button{margin-top:12px;padding:10px 14px;border:none;border-radius:8px;background:#10b981;color:#fff;cursor:pointer}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Contact Us</h1>
+    <div class="card">
+      <form>
+        <div class="row">
+          <div>
+            <label>Name</label>
+            <input placeholder="Your name" required />
+          </div>
+          <div>
+            <label>Email</label>
+            <input type="email" placeholder="you@example.com" required />
+          </div>
+        </div>
+        <label>Message</label>
+        <textarea placeholder="How can we help?" required></textarea>
+        <button>Send message</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
